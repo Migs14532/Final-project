@@ -20,13 +20,13 @@ export default function Dashboard() {
   // Data for popular services
   const popularServices = [
     { id: 1, name: "Wash & Fold", rating: 4.8, image: popular1, description: "Standard washing, drying, and neatly folding clothes.", price: "₱50 per kg" },
-    { id: 2, name: "Ironing", rating: 4.5, image: popular2, description: "Pressing or ironing clothes only, to remove wrinkles and make them look neat.", price: "₱30 per item" },
+    { id: 2, name: "Ironing and Pressing", rating: 4.5, image: popular2, description: "Ironing or pressing clothes only, to remove wrinkles and make them look neat.", price: "₱30 per item" },
   ];
 
   // Data for services
   const services = [
     { id: 1, name: "Wash & Fold", icon: service1, description: "Standard washing, drying, and neatly folding clothes.", price: "₱50 per kg" },
-    { id: 2, name: "Ironing", icon: service2, description: "Pressing or ironing clothes only, to remove wrinkles and make them look neat.", price: "₱30 per item" },
+    { id: 2, name: "Ironing & Pressing", icon: service2, description: "Ironing or pressing clothes only, to remove wrinkles and make them look neat.", price: "₱30 per item" },
     { id: 3, name: "Dry Cleaning", icon: service3, description: "Cleaning delicate or non-washable fabrics like suits, coats, and dresses using special solvents.", price: "₱150 per item" },
   ];
 
