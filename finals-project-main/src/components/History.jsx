@@ -25,7 +25,7 @@ export default function History() {
       >
         <ChevronLeft className="w-6 h-6 text-gray-700 hover:text-gray-900 transition" />
       </button>
-
+      
       <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-blue-500 mb-8 text-center">History</h1>
 
       <div className="w-full max-w-md bg-white/80 backdrop-blur-sm rounded-xl shadow-md p-4 sm:p-6 space-y-4">
