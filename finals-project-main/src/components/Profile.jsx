@@ -124,7 +124,7 @@ export default function Profile() {
 
             {/* Profile Image Preview */}
             <div className="flex justify-center mb-4 relative">
-              <div className="w-24 h-24 rounded-2xl overflow-hidden bg-blue-100 flex items-center justify-center">
+              <div className="w-24 h-24 rounded-2xl overflow-hidden bg-white flex items-center justify-center">
                 {tempProfile.image ? (
                   <img
                     src={tempProfile.image}

@@ -35,7 +35,7 @@ export default function History() {
           history.map((order) => (
             <div key={order.orderId} className="flex justify-between items-center border-b border-gray-200 pb-3">
               <div>
-                <p className="text-gray-700 font-medium text-sm sm:text-base">{order.orderId}</p>
+                <p className="text-black font-medium text-sm sm:text-base">{order.orderId}</p>
                 <p className="text-gray-500 text-xs sm:text-sm">
                   {order.services
                     .map(
